@@ -1,0 +1,125 @@
+/* navbar styling*/
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(24, 26, 126);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+/*footer styling*/
+.page-footer{
+    background-color: rgb(56, 51, 51);
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-copyright{
+    color:rgb(0, 255, 21);
+    border-top: 5px solid rgb(24, 26, 126)
+}
+
+/* header styling*/
+h3{
+    color: rgb(215, 216, 255);
+    font-family: 'Bradley Hand', 'Comic Sans', 'Comic Sans MS', cursive;
+    padding: 25px;
+}
+
+/* header styling*/
+h4{
+    color: rgb(215, 216, 255);
+    font-family: 'Bradley Hand', 'Comic Sans', 'Comic Sans MS', cursive;
+    padding: 10px;
+}
+
+h5{
+    position: absolute;
+    right: 0px;
+    font: size 12px;
+    color: rgb(1, 2, 46);
+    font-family: 'Bradley Hand', 'Comic Sans', 'Comic Sans MS', cursive;
+    padding: 25px;
+}
+
+/* image styling*/
+.img-thumbnail{
+    margin-right: 20px;
+    padding:5px;
+    border: ridge;
+    float: left;
+}
+
+/* fontstyling for text*/
+p{
+   font-family: Comic Sans, cursive;
+   font-size: large;
+   padding:10px;
+   color: silver;
+}
+
+/* body background*/
+body{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+.col-md-12{
+    background-color: rgba(73, 73, 73, 0.746);
+    padding-top: 30px;
+    padding-bottom:40px;
+}
+
+/* image border styling*/
+.pic{
+    border: 5px solid rgb(24, 26, 126);
+    border: ridge;
+}
+/* navbar styling*/
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: rgba(53, 48, 133, 0.692);
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+/* content styling*/
+.content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg {
+    background-color: rgba(73, 73, 73, 0.746);  
+    margin-top: 60px;
+
+}
+
+
+
+
+/* small screen adjustments*/
+@media(max-width:600px){
+    .navbar.bg-light{
+        background-color: rgb(81, 175, 160)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
