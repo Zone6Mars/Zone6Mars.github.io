@@ -144,8 +144,8 @@ function demo(CurrentSubject) {
     // Set layout for gauge plot
     var gaugeLayout = {
       title: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week",
-      width: 400,
-      height: 400,
+      width: 500,
+      height: 500,
       shapes:[{
           type: 'path',
           path: path,
