@@ -28,7 +28,7 @@ function charts(CurrentSubject) {
       var data = [trace2];
   
       var layout = {
-        margin: { t: 100 },
+        margin: { t: 50 },
         title: "Test Subject's Sample Results",
         xaxis: { title: "OTU ID" },
         hovermode: "closest",
