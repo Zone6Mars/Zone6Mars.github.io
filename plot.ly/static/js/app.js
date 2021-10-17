@@ -32,6 +32,7 @@ function charts(CurrentSubject) {
         title: "Test Subject's Sample Results",
         xaxis: { title: "OTU ID" },
         hovermode: "closest",
+        height: 600,
         width: 1200,
       };
   
