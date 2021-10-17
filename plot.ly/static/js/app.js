@@ -55,8 +55,8 @@ function charts(CurrentSubject) {
       title: "Test Subject's Top 10",
       xaxis: { autorange: true },
       yaxis: { autorange: true },
-      width: 600,
-      height: 800,
+      width: 500,
+      height: 700,
     };
 
     Plotly.newPlot("bar", data2, layout);
