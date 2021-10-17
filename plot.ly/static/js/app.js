@@ -29,6 +29,7 @@ function charts(CurrentSubject) {
   
       var layout = {
         margin: { t: 0 },
+        title: "Test Subject's Sample Results",
         xaxis: { title: "OTU ID" },
         hovermode: "closest",
         width: 1200,
